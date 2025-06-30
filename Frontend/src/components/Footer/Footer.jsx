@@ -1,0 +1,196 @@
+import React from 'react'
+
+const Footer = () => {
+  return (
+<>
+  {/* START FOOTER 05 */}
+  <footer
+    className="section-custom-bg"
+    // data-bg_img="images/footer_custom_bg.jpg"
+    data-bg_opacity=".9"
+    data-bg_color="#edf0f2"
+    data-bg_position="center bottom"
+  >
+    <section className="footer-widget-area pb-0">
+      <section
+        className="footer-widget-area pb-0"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
+      >
+        <div className="container-fluid  ">
+          <div className="row">
+            {/* ABOUT US */}
+            <div className="col-lg-3 col-md-6 col-12">
+              <div className="footer-widget">
+                <div className="sidebar-widget-wrapper">
+                  <div
+                    className="textwidget about-footer"
+                    style={{ marginLeft: 50 }}
+                  >
+                    <div className="footer-about-text">
+                      <a href="#">
+                        <img
+                          src="images/final morling global (1).png"
+                          alt=""
+                          className="footer-logo img-responsive"
+                        />
+                      </a>
+                      <p className="clearfix text-dark-color">
+                        Morling Global Pvt. Ltd. offers professional computer
+                        and laptop repair services at our retail locations
+                        throughout the world.
+                      </p>
+                    </div>
+                    <div className="social-icons margin-top-24 text-light-color">
+                      <a href="#">
+                        <i className="fa fa-facebook" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-twitter" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-pinterest-p" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-instagram" />
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-linkedin" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* OPENING HOURS */}
+            <div className="col-lg-3 col-md-6 col-12">
+              <div className="footer-widget text-dark-color">
+                <div className="sidebar-widget-wrapper">
+                  <div className="footer-widget-header clearfix">
+                    <h3 className="text-dark-color">OPENING HOURS</h3>
+                  </div>
+                  <div className="textwidget">
+                    <ul className="opening-shedule">
+                      <li className="text-dark-color">
+                        <span>Sat - Tues :</span>
+                        <div className="float-right">6.00 AM - 10.00 PM</div>
+                      </li>
+                      <li className="text-dark-color">
+                        <span>Wed - Thurs :</span>
+                        <div className="float-right">8.00 AM - 6.00 PM</div>
+                      </li>
+                      <li className="text-dark-color">
+                        <span>Friday :</span>
+                        <div className="float-right">6.00 AM - 10.00 PM</div>
+                      </li>
+                      <li className="text-dark-color">
+                        <span>Sunday :</span>
+                        <div className="float-right">Closed</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* CONTACT US */}
+            <div className="col-lg-3 col-md-6 col-12">
+              <div className="footer-widget text-dark-color">
+                <div className="sidebar-widget-wrapper">
+                  <div className="footer-widget-header clearfix">
+                    <h3 className="text-dark-color">CONTACT US</h3>
+                  </div>
+                  <div className="textwidget">
+                    <i className="fa fa-location-arrow fa-contact" />
+                    <p className="text-dark-color">
+                      A25, Sector-59, Noida
+                      <br />
+                      Pin-201301, Uttar Pradesh
+                    </p>
+                    <i className="fa fa-phone fa-contact" />
+                    <p className="text-dark-color">
+                      Office: 9891915598
+                      <br />
+                      Cell: 7004379646
+                    </p>
+                    <i className="fa fa-envelope-o fa-contact" />
+                    <p className="text-dark-color">
+                      <a href="#">support@morlingglobal.in</a>
+                      <br />
+                      <a href="#">help@morlingglobal.in</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* IMPORTANT LINKS */}
+            <div className="col-lg-3 col-md-6 col-12">
+              <div className="footer-widget text-dark-color">
+                <div className="sidebar-widget-wrapper">
+                  <div className="footer-widget-header clearfix">
+                    <h3 className="text-dark-color">Important Links</h3>
+                  </div>
+                  <div className="textwidget">
+                    <a href="/privary-policy" className="text-dark-color">
+                      Privacy Policy
+                    </a>
+                    <br />
+                    <a
+                      href="/terms-and-conditions"
+                      className="text-dark-color"
+                    >
+                      Terms and Conditions
+                    </a>
+                    <br />
+                    <a href="/refund-policy" className="text-dark-color">
+                      Refund Policy
+                    </a>
+                    <br />
+                    <a href="/faqs" className="text-dark-color">
+                      FAQs
+                    </a>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          {/* end row */}
+        </div>{" "}
+        {/* end container-fluid */}
+      </section>
+      {/* end .container  */}
+    </section>
+    {/*  end .footer-widget-area  */}
+    {/*FOOTER CONTENT  */}
+    <section className="footer-contents">
+      <div className="container">
+        <div className="row clearfix">
+          <div className="col-md-12 clearfix text-center  border-top-1-dark">
+            <p className="copyright-text text-dark-color pt-4">
+              Copyright © 2023. All right reserved by
+              <a
+                href="https://morlingglobal.in"
+                target="_blank"
+                className="color-primary"
+              >
+                Morling Global
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  {/* BACK TO TOP BUTTON  */}
+  <a id="backTop" data-icon="">
+    Back To Top
+  </a>
+</>
+
+  )
+}
+
+export default Footer
