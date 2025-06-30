@@ -46,20 +46,19 @@ const Footer = () => {
                     </div>
                     <div className="social-icons margin-top-24 text-light-color">
                       <a href="#">
-                        <i className="fa fa-facebook" />
+                 
+                <i class="fa-brands fa-facebook-f"></i>
                       </a>
                       <a href="#">
-                        <i className="fa fa-twitter" />
+                     <i class="fa-brands fa-twitter"></i>
+                      </a>
+                   
+                      <a href="#">
+                 <i class="fa-brands fa-instagram"></i>
                       </a>
                       <a href="#">
-                        <i className="fa fa-pinterest-p" />
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-instagram" />
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-linkedin" />
-                      </a>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
                     </div>
                   </div>
                 </div>
