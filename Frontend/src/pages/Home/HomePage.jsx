@@ -23,23 +23,23 @@ const HomePage = () => {
               backgroundImage: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("images/gallery_5.jpg")',
               backgroundSize: "100% 100%",
               backgroundPosition: 'center center',
-              height: '92vh',
+              height: '98vh',
               backgroundAttachment: 'fixed'
             }}>
               <div className="container h-100 ">
-                <div className="row h-100 align-items-start   mt-3">
+                <div className="row h-100 align-items-start   mt-5">
                   <div className="col-lg-8 col-md-10 mx-auto">
                     <div className="banner-content text-white animate__animated animate__fadeInUp animate__delay-0.5s">
-                      <span className="badge badge-pill badge-primary mb-3 px-3 py-2">Trusted Since 2011</span>
+                      <span className="badge badge-pill  mb-3 px-3 py-2" style={{background: "#2867c3", color: "#fff"}}>Trusted Since 2011</span>
                       <h1 className="hero-title mb-4">
-                        <span className="d-block mb-2">Leading Provider of</span>
+                        <span className="d-block mb-2" style={{color:"#fff"}}>Leading Provider of</span>
                         <span className="text-gradient font-weight-bold">
                           Recruitment & IT Solutions
                         </span>
                       </h1>
                       <p className="lead mb-5">Delivering exceptional technology infrastructure and recruitment services to power your business growth and innovation.</p>
-                      <div className="banner-buttons" style={{ display: 'flex',  alignItems: 'center', justifyContent:"space-between" }}>
-                        <a href="#form" className="btn btn-primary btn-lg px-4 py-2 me-3 mb-3 mb-sm-0 btn-hover-effect">
+                      <div className="banner-buttons" >
+                        <a href="#form" className="btn  btn-lg px-4 py-2 me-3 mb-3 mb-sm-0 btn-hover-effect" style={{background: "#2867c3", color: "#fff"}}>
                           <i className="fa fa-calendar-check-o me-2"></i> Book Appointment
                         </a>
                         <a href="#services" className="btn btn-outline-light btn-lg px-4 py-2 btn-hover-effect-light">
@@ -63,23 +63,23 @@ const HomePage = () => {
               backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("images/img1.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center center',
-              height: '92vh',
+              height: '98vh',
               backgroundAttachment: 'fixed'
             }}>
               <div className="container h-100">
-                <div className="row h-100 align-items-start   mt-3">
+                <div className="row h-100 align-items-start   mt-5">
                   <div className="col-lg-8 col-md-10 mx-auto">
                     <div className="banner-content text-white animate__animated animate__zoomIn">
-                      <span className="badge badge-pill badge-primary mb-3 px-3 py-2">Enterprise Solutions</span>
+                      <span className="badge badge-pill mb-3 px-3 py-2"  style={{background: "#2867c3", color: "#fff"}}>Enterprise Solutions</span>
                       <h1 className="hero-title mb-4">
-                        <span className="d-block mb-2">Innovative IT Solutions</span>
+                        <span className="d-block mb-2" style={{color:"#fff"}}>Innovative IT Solutions</span>
                         <span className="text-gradient font-weight-bold">
                           Driving Business Growth
                         </span>
                       </h1>
                       <p className="lead mb-5">Comprehensive hardware installation, software development, and technical support services tailored to enhance your operational efficiency.</p>
                       <div className="banner-buttons">
-                        <a href="#about" className="btn btn-primary btn-lg px-4 py-2 me-3 mb-3 mb-sm-0 btn-hover-effect">
+                        <a href="#about" className="btn  btn-lg px-4 py-2 me-3 mb-3 mb-sm-0 btn-hover-effect"  style={{background: "#2867c3", color: "#fff"}}>
                           <i className="fa fa-users me-2"></i> Discover Our Story
                         </a>
                         <a href="#form" className="btn btn-outline-light btn-lg px-4 py-2 btn-hover-effect-light">
@@ -103,23 +103,23 @@ const HomePage = () => {
               backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("images/img3.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center center',
-              height: '92vh',
+              height: '98vh',
               backgroundAttachment: 'fixed'
             }}>
               <div className="container h-100">
-                <div className="row h-100 align-items-start mt-3">
+                <div className="row h-100 align-items-start mt-5">
                   <div className="col-lg-8 col-md-10 mx-auto">
                     <div className="banner-content text-white animate__animated animate__slideInUp">
-                      <span className="badge badge-pill badge-primary mb-3 px-3 py-2">Expert Recruitment</span>
+                      <span className="badge badge-pill  mb-3 px-3 py-2"  style={{background: "#2867c3", color: "#fff"}}>Expert Recruitment</span>
                       <h1 className="hero-title mb-4">
-                        <span className="d-block mb-2">Strategic Talent</span>
+                        <span className="d-block mb-2" style={{color:"#fff"}}>Strategic Talent</span>
                         <span className="text-gradient font-weight-bold">
                           Acquisition Solutions
                         </span>
                       </h1>
                       <p className="lead mb-5">Connecting organizations with exceptional talent through our specialized recruitment and manpower solutions.</p>
-                      <div className="banner-buttons " style={{ display: 'flex',  alignItems: 'center', justifyContent:"space-between" }}>
-                        <a href="#services" className="btn btn-primary btn-lg px-4 py-2 me-3 mb-3 mb-sm-0 btn-hover-effect">
+                      <div className="banner-buttons " >
+                        <a href="#services" className="btn btn-lg px-4 py-2 me-3 mb-3 mb-sm-0 btn-hover-effect"  style={{background: "#2867c3", color: "#fff"}}>
                           <i className="fa fa-briefcase me-2"></i> Our Expertise
                         </a>
                         <a href="#testimonials" className="btn btn-outline-light btn-lg px-4 py-2 btn-hover-effect-light">
@@ -161,13 +161,13 @@ const HomePage = () => {
               <div className="feature-card bg-white rounded shadow p-4 h-100 d-flex flex-column text-center transform-on-hover">
                 <div className="feature-icon-wrapper mb-4">
                   <div className="feature-icon-bg">
-                    <i className="fa fa-check-circle fa-3x text-primary"></i>
+                    <i className="fa fa-check-circle fa-3x text-primary"  style={{ color: "#2867c3"}}></i>
                   </div>
                 </div>
                 <h4 className="feature-title mb-3">Premium Quality</h4>
                 <p className="mb-4 flex-grow-1 text-muted">Delivering excellence with meticulous attention to detail and unwavering commitment to customer satisfaction.</p>
                 <div className="feature-footer">
-                  <span className="text-primary fw-bold">100% Guaranteed</span>
+                  <span className=" fw-bold" style={{ color: "#2867c3"}}>100% Guaranteed</span>
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ const HomePage = () => {
                 <h4 className="feature-title mb-3">Expert Professionals</h4>
                 <p className="mb-4 flex-grow-1 text-muted">Skilled specialists with extensive industry experience delivering innovative solutions for complex challenges.</p>
                 <div className="feature-footer">
-                  <span className="text-primary fw-bold">Certified Experts</span>
+                  <span className=" fw-bold"  style={{ color: "#2867c3"}}>Certified Experts</span>
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@ const HomePage = () => {
                 <h4 className="feature-title mb-3">Fast Delivery</h4>
                 <p className="mb-4 flex-grow-1 text-muted">Swift turnaround times without compromising on quality, ensuring timely delivery of all projects and services.</p>
                 <div className="feature-footer">
-                  <span className="text-primary fw-bold">On-Time Results</span>
+                  <span className=" fw-bold"  style={{ color: "#2867c3"}}>On-Time Results</span>
                 </div>
               </div>
             </div>
@@ -398,7 +398,7 @@ const HomePage = () => {
             <div className="col-lg-6 col-md-12 col-sm-12 order-lg-1 order-2">
               <div className="about-content-wrapper pe-lg-4 mt-5 mt-lg-0">
                 <div className="section-heading">
-                  <span className="section-subtitle text-primary fw-bold mb-2 d-block">ABOUT OUR COMPANY</span>
+                  <span className="section-subtitle  fw-bold mb-2 d-block"  style={{color: "#2867c3"}}>ABOUT OUR COMPANY</span>
                   <h2 className="section-title mb-4">Morling Global Pvt. Ltd.</h2>
                   <div className="section-line mb-4"></div>
                 </div>
@@ -493,14 +493,15 @@ const HomePage = () => {
                   </div>
                   
                   <button 
-                    className="btn btn-primary mt-3" 
+                    className="btn  mt-3" 
                     type="button" 
                     data-toggle="collapse" 
                     data-target="#moreContent" 
                     aria-expanded="false" 
                     aria-controls="moreContent"
+                     style={{background: "#2867c3", color: "#fff"}}
                   >
-                    <span className="collapse-text">Read More</span>
+                    <span className="collapse-text"  >Read More</span>
                     <i className="fa fa-angle-down ms-2"></i>
                   </button>
                 </div>
@@ -563,7 +564,7 @@ const HomePage = () => {
                     <div className="highlight-card d-flex align-items-center p-4 rounded shadow-sm bg-white">
                       <div className="highlight-icon me-4">
                         <div className="icon-bg">
-                          <i className="fa fa-wrench text-primary"></i>
+                          <i className="fa fa-wrench "  style={{ color: "#2867c3"}}></i>
                         </div>
                       </div>
                       <div className="highlight-content">
@@ -577,7 +578,7 @@ const HomePage = () => {
                     <div className="highlight-card d-flex align-items-center p-4 rounded shadow-sm bg-white">
                       <div className="highlight-icon me-4">
                         <div className="icon-bg">
-                          <i className="fa fa-users text-primary"></i>
+                          <i className="fa fa-users "  style={{ color: "#2867c3"}}></i>
                         </div>
                       </div>
                       <div className="highlight-content">
@@ -591,7 +592,7 @@ const HomePage = () => {
                     <div className="highlight-card d-flex align-items-center p-4 rounded shadow-sm bg-white">
                       <div className="highlight-icon me-4">
                         <div className="icon-bg">
-                          <i className="fa fa-hand-peace-o text-primary"></i>
+                          <i className="fa-solid fa-business-time"  style={{ color: "#2867c3"}}></i>
                         </div>
                       </div>
                       <div className="highlight-content">
@@ -900,7 +901,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"100%"}} src="images/deploy.jpg" alt="RTD Services" />
+              <img style={{minWidth:"120%"}} src="images/deploy.jpg" alt="RTD Services" />
               <span className="service-icon fa fa-hard-of-hearing" />
             </figure>
             <div className="service-content">
@@ -1036,7 +1037,7 @@ const HomePage = () => {
             animationName: "fadeIn"
           }}
         >
-          <i className="fa fa-handshake-o text-primary-color" />
+          <i class="fa-solid fa-screwdriver-wrench"  style={{ color: "#fff", fontSize: "4rem"}}></i>
           <h3 className="text-light-color">Return Repaired Device</h3>
           <div className="process-info text-light-color">
             AŌer thorough repairs and testing, we will return your device in
@@ -1064,13 +1065,13 @@ const HomePage = () => {
       </div>
       {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
       <div className="col-lg-3 col-6">
-        <div className="counter-block-2 counter-border">
-          <i className="icon fa fa-smile-o" />
-          <div className="count-info">
-            <span className="counter">90</span>
+        <div className="counter-block-2 counter-border flex">
+          <i class="fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem"}}></i>
+         
+            <span className="counter count-info">90</span>
             <span className="counter-postfix">+</span>
             <p className="text-capitalize">Happy Buyers</p>
-          </div>
+         
         </div>
       </div>
       {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}

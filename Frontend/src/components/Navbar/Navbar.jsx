@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,9 +30,9 @@ const Navbar = () => {
       <div className="header-top">
         <div className="container">
           <div className="nav-head">
-            <a href="/" className="navbar-brand">
+            <Link to="/" className="navbar-brand">
               <img src="images/final morling global (1).png" alt="Logo"/>
-            </a>
+            </Link>
             
             {/*  New Code For Menu */}
             <div
@@ -62,67 +62,67 @@ const Navbar = () => {
                     > 
                       <ul className="navbar-nav mr-auto">
                         <li className="">
-                          <a href="/" onClick={closeMobileMenu}>
+                          <Link to="/" onClick={closeMobileMenu}>
                             HOME
                             <span className="sr-only">(current)</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="/about-us" title="About Us" onClick={closeMobileMenu}>
+                          <Link to="/about-us" title="About Us" onClick={closeMobileMenu}>
                             ABOUT US
-                          </a>
+                          </Link>
                         </li>
                         <li className="dropdown">
-                          <a
+                          <Link
                             className="dropdown-toggle"
-                            href="#"
+                           
                             role="button"
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             aria-expanded="false"
                           >
                             SERVICES
-                          </a>
+                          </Link>
                           <ul className="dropdown-menu">
                             <li>
-                              <a href="/hardware_installation_repair_and_maintenance_services" onClick={closeMobileMenu}>
+                              <Link to="/hardware_installation_repair_and_maintenance_services" onClick={closeMobileMenu}>
                                 Hardware Installation, Repair, and Maintenance
                                 Services
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/broadband_installation_shifting_and_technical_support_services" onClick={closeMobileMenu}>
+                              < Link to ="/broadband_installation_shifting_and_technical_support_services" onClick={closeMobileMenu}>
                                 Broadband Installation, Shifting, and Technical
                                 Support Services
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/software_development_services" onClick={closeMobileMenu}>
+                              <Link to="/software_development_services" onClick={closeMobileMenu}>
                                 Software Development Services
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/recruitment_and_manpower_services" onClick={closeMobileMenu}>
+                              <Link to="/recruitment_and_manpower_services" onClick={closeMobileMenu}>
                                 Recruitment and Manpower Services
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/recruit_train_and_deploys_services" onClick={closeMobileMenu}>
+                              <Link to="/recruit_train_and_deploys_services" onClick={closeMobileMenu}>
                                 Recruit, Train, and Deploy Services
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/comprehensive_hardware_and_software_amc_services" onClick={closeMobileMenu}>
+                              <Link to="/comprehensive_hardware_and_software_amc_services" onClick={closeMobileMenu}>
                                 Comprehensive Hardware and Software AMC Services
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         
                         <li>
-                          <a href="/contact" title="Contact" onClick={closeMobileMenu}>
+                          <Link to="/contact" title="Contact" onClick={closeMobileMenu}>
                             CONTACT
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>

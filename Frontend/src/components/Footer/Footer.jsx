@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -45,18 +46,18 @@ const Footer = () => {
                       </p>
                     </div>
                     <div className="social-icons margin-top-24 text-light-color">
-                      <a href="#">
+                      <a href="/">
                  
                 <i class="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a href="#">
+                      <a href="/">
                      <i class="fa-brands fa-twitter"></i>
                       </a>
                    
-                      <a href="#">
+                      <a href="/">
                  <i class="fa-brands fa-instagram"></i>
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                     </div>
@@ -104,9 +105,9 @@ const Footer = () => {
                   <div className="textwidget">
                     <i className="fa fa-location-arrow fa-contact" />
                     <p className="text-dark-color">
-                      A25, Sector-59, Noida
+                      H. NO. 15/C, GALI NO. 9 GAGAN VIHAR, BADARPUR, NEW DELHI,
                       <br />
-                      Pin-201301, Uttar Pradesh
+                        Delhi, India - 110044
                     </p>
                     <i className="fa fa-phone fa-contact" />
                     <p className="text-dark-color">
@@ -114,11 +115,12 @@ const Footer = () => {
                       <br />
                       Cell: 7004379646
                     </p>
-                    <i className="fa fa-envelope-o fa-contact" />
                     <p className="text-dark-color">
-                      <a href="#">support@morlingglobal.in</a>
+                   <i class="fa-solid fa-envelope" style={{background: "#2867c3", color: "#fff", marginRight:"10px", marginBottom:"10px", padding:"8px", borderRadius: "5px"}}></i>
+                <a href="mailto:support@morlingglobal.in">support@morlingglobal.in</a>
                       <br />
-                      <a href="#">help@morlingglobal.in</a>
+                                   <i class="fa-solid fa-envelope" style={{background: "#2867c3", color: "#fff", marginRight:"10px", marginBottom:"10px", padding:"8px", borderRadius: "5px"}}></i>
+                      <a href="mailto:help@morlingglobal.in">help@morlingglobal.in</a>
                     </p>
                   </div>
                 </div>
@@ -132,24 +134,28 @@ const Footer = () => {
                     <h3 className="text-dark-color">Important Links</h3>
                   </div>
                   <div className="textwidget">
-                    <a href="/privary-policy" className="text-dark-color">
+                    <Link href="/privary-policy" className="text-dark-color">
+                    <i class="fa-solid fa-angles-right" style={{background: "#2867c3", color: "#fff", marginRight:"10px", marginBottom:"10px", padding:"8px", borderRadius: "5px"}}></i>
                       Privacy Policy
-                    </a>
+                    </Link>
                     <br />
-                    <a
-                      href="/terms-and-conditions"
+                    <Link
+                      to="/terms-and-conditions"
                       className="text-dark-color"
                     >
+                          <i class="fa-solid fa-angles-right" style={{background: "#2867c3", color: "#fff", marginRight:"10px",marginBottom:"10px", padding:"8px", borderRadius: "5px"}}></i>
                       Terms and Conditions
-                    </a>
+                    </Link>
                     <br />
-                    <a href="/refund-policy" className="text-dark-color">
+                    <Link to="/refund-policy" className="text-dark-color">
+                        <i class="fa-solid fa-angles-right" style={{background: "#2867c3", color: "#fff", marginRight:"10px", marginBottom:"10px", padding:"8px", borderRadius: "5px"}}></i>
                       Refund Policy
-                    </a>
+                    </Link>
                     <br />
-                    <a href="/faqs" className="text-dark-color">
+                    <Link to="/faqs" className="text-dark-color">
+                        <i class="fa-solid fa-angles-right" style={{background: "#2867c3", color: "#fff", marginRight:"10px", marginBottom:"10px", padding:"8px", borderRadius: "5px"}}></i>
                       FAQs
-                    </a>
+                    </Link>
                     <br />
                   </div>
                 </div>
