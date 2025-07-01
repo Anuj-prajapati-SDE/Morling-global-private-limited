@@ -69,7 +69,7 @@ const RecruitmentAndManpowerServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328723/staffing_hqn0zj.jpg" alt="service" />
+            <img style={{minWidth:"130%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328723/staffing_hqn0zj.jpg" alt="service" />
             <span className="fa fa-compress" />
           </figure>
           <div className="service-content">
@@ -123,7 +123,7 @@ const RecruitmentAndManpowerServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326136/recruitment_pmxvx7.avif" alt="service" />
+            <img style={{minWidth:"75%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326136/recruitment_pmxvx7.avif" alt="service" />
             <span className="fa fa-hard-of-hearing" />
           </figure>
           <div className="service-content">

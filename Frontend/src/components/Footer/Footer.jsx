@@ -174,14 +174,8 @@ const Footer = () => {
         <div className="row clearfix">
           <div className="col-md-12 clearfix text-center  border-top-1-dark">
             <p className="copyright-text text-dark-color pt-4">
-              Copyright © 2023. All right reserved by
-              <a
-                href="https://morlingglobal.in"
-                target="_blank"
-                className="color-primary"
-              >
-                Morling Global
-              </a>
+              Copyright © 2025. All right reserved by Morling Global Pvt. Ltd.
+              
             </p>
           </div>
         </div>

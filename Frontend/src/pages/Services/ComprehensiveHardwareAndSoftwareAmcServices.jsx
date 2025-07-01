@@ -97,7 +97,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327808/moterboard_srb9yb.jpg" alt="service" />
+              <img style={{minWidth:"150%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327808/moterboard_srb9yb.jpg" alt="service" />
               <span className="fa fa-address-card" />
             </figure>
             <div className="service-content">
@@ -121,7 +121,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327839/ram_asjlsn.jpg" alt="service" />
+              <img style={{minWidth:"120%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327839/ram_asjlsn.jpg" alt="service" />
               <span className="fa fa-th-list" />
             </figure>
             <div className="service-content">
@@ -145,7 +145,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327882/hddupgrade_n5rh31.jpg" alt="service" />
+              <img style={{minWidth:"90%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327882/hddupgrade_n5rh31.jpg" alt="service" />
               <span className="fa fa-hard-of-hearing" />
             </figure>
             <div className="service-content">
@@ -272,7 +272,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
               animationName: "fadeIn"
             }}
           >
-            <i className="fa fa-handshake-o text-primary-color" />
+      <i class="fa-solid fa-hammer"  style={{fontSize:"4rem", color:"#fff"}}></i>
             <h3 className="text-light-color">Return Repaired Device</h3>
             <div className="process-info text-light-color">
               Experienced service department ready to handle all of your auto
@@ -283,54 +283,54 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
       </div>
       {/*  end .row */}
-      <div
-        className="row counter-inline-container wow zoomIn animated"
-        style={{ visibility: "visible", animationName: "zoomIn" }}
-      >
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-users" />
-            <div className="count-info">
-              <span className="counter">12</span>
-              <span className="counter-postfix">+</span>
-              <p className="text-capitalize">Years Service</p>
-            </div>
-          </div>
+       <div
+      className="row counter-inline-container wow zoomIn animated"
+      style={{ visibility: "visible", animationName: "zoomIn" }}
+    >
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border">
+          <i className="icon fa fa-users" />
+         
+            <span className="counter count-info">12 +</span>
+   
+            <p className="text-capitalize">Years Service</p>
+          
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-smile-o" />
-            <div className="count-info">
-              <span className="counter">90</span>
-              <span className="counter-postfix">+</span>
-              <p className="text-capitalize">Happy Buyers</p>
-            </div>
-          </div>
-        </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-forumbee" />
-            <div className="count-info">
-              <span className="counter">99</span>
-              <span className="counter-postfix">%</span>
-              <p className="text-capitalize">Devices Fixed</p>
-            </div>
-          </div>
-        </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-smile-o" />
-            <div className="count-info">
-              <span className="counter">1275</span>
-              <p className="text-capitalize">Happy Customers</p>
-            </div>
-          </div>
-        </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
       </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border flex">
+          <i class=" icon fa fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem", marginRight:"10px"}}></i>
+         
+            <span className="counter count-info">90 +</span>
+            
+            <p className="text-capitalize">Happy Buyers</p>
+         
+        </div>
+      </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border flex">
+  <i class="icon fa fa-brands fa-forumbee" style={{ color: "#2867c3", fontSize:"2rem", marginRight:"10px"}}></i>
+         
+            <span className="counter count-info">99 %</span>
+     
+            <p className="text-capitalize">Devices Fixed</p>
+         
+        </div>
+      </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border flex">
+                 <i class="icon fa fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem",  marginRight:"10px"}}></i>
+      
+            <span className="counter count-info">1275</span>
+            <p className="text-capitalize">Happy Customers</p>
+        
+        </div>
+      </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+    </div>
       {/*  end .row  */}
     </div>
     {/*  end .container  */}

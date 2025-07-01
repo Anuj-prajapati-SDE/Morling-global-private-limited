@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -809,12 +810,12 @@ const HomePage = () => {
                 skilled professionals, we deliver top-notch solutions tailored
                 to meet the diverse needs of our clients.
               </p>
-              <a
-                href="/hardware_installation_repair_and_maintenance_services"
+              <Link
+                to="/hardware_installation_repair_and_maintenance_services"
                 className="btn btn-theme btn-small btn-inline btn-semi-rounded"
               >
                 View Details
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -836,12 +837,12 @@ const HomePage = () => {
                 connection, relocating to a new location, or facing technical
                 challenges, our expert team is here to provide seamless support.
               </p>
-              <a
-                href="/broadband_installation_shifting_and_technical_support_services"
+              <Link
+                to="/broadband_installation_shifting_and_technical_support_services"
                 className="btn btn-theme btn-small btn-inline btn-semi-rounded"
               >
                 View Details
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -862,12 +863,12 @@ const HomePage = () => {
                 crafting custom software tailored to meet your unique business
                 needs.
               </p>
-              <a
-                href="/software_development_services"
+              <Link
+                to="/software_development_services"
                 className="btn btn-theme btn-small btn-inline btn-semi-rounded"
               >
                 View Details
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -888,12 +889,12 @@ const HomePage = () => {
                 at the right time, enabling your business to thrive in a
                 competitive landscape.
               </p>
-              <a
-                href="/recruitment_and_manpower_services"
+              <Link
+                to="/recruitment_and_manpower_services"
                 className="btn btn-theme btn-small btn-inline btn-semi-rounded"
               >
                 View Details 
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -915,12 +916,12 @@ const HomePage = () => {
                 programs that align with your organization's goals, ensuring
                 maximum productivity and growth.
               </p>
-              <a
-                href="/recruit_train_and_deploy_services"
+              <Link
+                to="/recruit_train_and_deploy_services"
                 className="btn btn-theme btn-small btn-inline btn-semi-rounded"
               > 
                 View Details
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -941,12 +942,12 @@ const HomePage = () => {
                 businesses, providing peace of mind with proactive maintenance
                 and prompt support.
               </p>
-              <a
-                href="/comprehensive_hardware_and_software_amc_services"
+              <Link
+                to="/comprehensive_hardware_and_software_amc_services"
                 className="btn btn-theme btn-small btn-inline btn-semi-rounded"
               >
                 View Details
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -1056,43 +1057,43 @@ const HomePage = () => {
       <div className="col-lg-3 col-6">
         <div className="counter-block-2 counter-border">
           <i className="icon fa fa-users" />
-          <div className="count-info">
-            <span className="counter">12</span>
+         
+            <span className="counter count-info">12 +</span>
             <span className="counter-postfix">+</span>
             <p className="text-capitalize">Years Service</p>
-          </div>
+          
         </div>
       </div>
       {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
       <div className="col-lg-3 col-6">
         <div className="counter-block-2 counter-border flex">
-          <i class="fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem"}}></i>
+          <i class=" icon fa fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem", marginRight:"10px"}}></i>
          
-            <span className="counter count-info">90</span>
-            <span className="counter-postfix">+</span>
+            <span className="counter count-info">90 +</span>
+            
             <p className="text-capitalize">Happy Buyers</p>
          
         </div>
       </div>
       {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
       <div className="col-lg-3 col-6">
-        <div className="counter-block-2 counter-border">
-          <i className="icon fa fa-forumbee" />
-          <div className="count-info">
-            <span className="counter">99</span>
-            <span className="counter-postfix">%</span>
+        <div className="counter-block-2 counter-border flex">
+  <i class="icon fa fa-brands fa-forumbee" style={{ color: "#2867c3", fontSize:"2rem", marginRight:"10px"}}></i>
+         
+            <span className="counter count-info">99 %</span>
+     
             <p className="text-capitalize">Devices Fixed</p>
-          </div>
+         
         </div>
       </div>
       {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
       <div className="col-lg-3 col-6">
-        <div className="counter-block-2 counter-border">
-          <i className="icon fa fa-smile-o" />
-          <div className="count-info">
-            <span className="counter">1275</span>
+        <div className="counter-block-2 counter-border flex">
+                 <i class="icon fa fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem",  marginRight:"10px"}}></i>
+      
+            <span className="counter count-info">1275</span>
             <p className="text-capitalize">Happy Customers</p>
-          </div>
+        
         </div>
       </div>
       {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}

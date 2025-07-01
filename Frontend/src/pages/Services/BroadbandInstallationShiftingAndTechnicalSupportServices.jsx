@@ -45,7 +45,7 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
       </div>
       {/* end .col-sm-12  */}
     </div>
-    <div className="row">
+    <div className="row flex align-items-center justify-content-center">
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
@@ -87,7 +87,7 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327623/support_l6vcqs.jpg" alt="service" />
+            <img style={{minWidth:"90%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327623/support_l6vcqs.jpg" alt="service" />
             <span className="fa fa-address-card" />
           </figure>
           <div className="service-content">

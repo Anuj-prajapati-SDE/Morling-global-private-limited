@@ -49,7 +49,7 @@ const RecruitTrainAndDeploysServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326136/recruitment_pmxvx7.avif" alt="service" />
+              <img style={{minWidth:"80%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326136/recruitment_pmxvx7.avif" alt="service" />
               <span className="fa fa-wrench" />
             </figure>
             <div className="service-content">
@@ -69,7 +69,7 @@ const RecruitTrainAndDeploysServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327344/training_deapiy.jpg" alt="service" />
+              <img style={{minWidth:"110%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327344/training_deapiy.jpg" alt="service" />
               <span className="fa fa-compress" />
             </figure>
             <div className="service-content">
@@ -134,14 +134,14 @@ const RecruitTrainAndDeploysServices = () => {
     <div className="container">
       <div className="row section-heading-wrapper section-heading-wrapper-alt">
         <div className="col-md-8 offset-md-2 col-sm-12 col-sm-offset-0 text-center">
-          <h4>Benifits Of Our Recruit , Train and Deploy Model</h4>
-          <span className="heading-separator" />
+          <h2>Benifits Of Our Recruit , Train and Deploy Model</h2>
+       
           {/* <h2>THREE STEPS SOLUTION</h2> */}
         </div>
         {/* end .col-sm-12  */}
       </div>
       <div
-        className="row wow fadeInUp text-center animated"
+        className="row wow fadeInUp text-center animated flex justify-content-center"
         style={{ visibility: "visible", animationName: "fadeInUp" }}
       >
         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -162,7 +162,7 @@ const RecruitTrainAndDeploysServices = () => {
             </div>
           </div>
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
+       
         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div
             className="process-step-1 block-white-bg wow fadeIn theme-custom-box-animation theme-custom-box-shadow animated"
@@ -180,7 +180,7 @@ const RecruitTrainAndDeploysServices = () => {
             </div>
           </div>
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
+     
         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div
             className="process-step-1 block-black-bg wow fadeIn theme-custom-box-animation theme-custom-box-shadow animated"
@@ -191,7 +191,7 @@ const RecruitTrainAndDeploysServices = () => {
               animationName: "fadeIn"
             }}
           >
-            <i className="fa fa-handshake-o text-primary-color" />
+           <i class="fa-solid fa-handshake" style={{fontSize:"5rem", color:"#fff"}}></i>
             <h3 className="text-light-color">High Retention Rates</h3>
             <div className="process-info text-light-color">
               Focused training ensures candidates are well-prepared and
@@ -199,8 +199,7 @@ const RecruitTrainAndDeploysServices = () => {
             </div>
           </div>
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
+        
         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div
             className="process-step-1 block-black-bg wow fadeIn theme-custom-box-animation theme-custom-box-shadow animated"
@@ -211,15 +210,14 @@ const RecruitTrainAndDeploysServices = () => {
               animationName: "fadeIn"
             }}
           >
-            <i className="fa fa-handshake-o text-primary-color" />
+            <i class="fa-solid fa-address-card" style={{fontSize:"5rem", color:"#fff"}}></i>
             <h3 className="text-light-color">Cost Effective Solutions</h3>
             <div className="process-info text-light-color">
               Eliminates the need for extensive in-house training programs.
             </div>
           </div>
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
+       
         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div
             className="process-step-1 block-black-bg wow fadeIn theme-custom-box-animation theme-custom-box-shadow animated"
@@ -230,7 +228,7 @@ const RecruitTrainAndDeploysServices = () => {
               animationName: "fadeIn"
             }}
           >
-            <i className="fa fa-handshake-o text-primary-color" />
+          <i class="fa-solid fa-scale-balanced"  style={{fontSize:"5rem", color:"#fff"}}></i>
             <h3 className="text-light-color">Scalability</h3>
             <div className="process-info text-light-color">
               Easily scale your workforce based on project demands or business
@@ -238,57 +236,57 @@ const RecruitTrainAndDeploysServices = () => {
             </div>
           </div>
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-12 col-xs-12  */}
+    
       </div>
       {/*  end .row */}
-      <div
-        className="row counter-inline-container wow zoomIn animated"
-        style={{ visibility: "visible", animationName: "zoomIn" }}
-      >
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-users" />
-            <div className="count-info">
-              <span className="counter">12</span>
-              <span className="counter-postfix">+</span>
-              <p className="text-capitalize">Years Service</p>
-            </div>
-          </div>
+    <div
+      className="row counter-inline-container wow zoomIn animated"
+      style={{ visibility: "visible", animationName: "zoomIn" }}
+    >
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border">
+          <i className="icon fa fa-users" />
+         
+            <span className="counter count-info">12 +</span>
+   
+            <p className="text-capitalize">Years Service</p>
+          
         </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-smile-o" />
-            <div className="count-info">
-              <span className="counter">90</span>
-              <span className="counter-postfix">+</span>
-              <p className="text-capitalize">Happy Buyers</p>
-            </div>
-          </div>
-        </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-forumbee" />
-            <div className="count-info">
-              <span className="counter">99</span>
-              <span className="counter-postfix">%</span>
-              <p className="text-capitalize">Devices Fixed</p>
-            </div>
-          </div>
-        </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
-        <div className="col-lg-3 col-6">
-          <div className="counter-block-2 counter-border">
-            <i className="icon fa fa-smile-o" />
-            <div className="count-info">
-              <span className="counter">1275</span>
-              <p className="text-capitalize">Happy Customers</p>
-            </div>
-          </div>
-        </div>
-        {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
       </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border flex">
+          <i class=" icon fa fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem", marginRight:"10px"}}></i>
+         
+            <span className="counter count-info">90 +</span>
+            
+            <p className="text-capitalize">Happy Buyers</p>
+         
+        </div>
+      </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border flex">
+  <i class="icon fa fa-brands fa-forumbee" style={{ color: "#2867c3", fontSize:"2rem", marginRight:"10px"}}></i>
+         
+            <span className="counter count-info">99 %</span>
+     
+            <p className="text-capitalize">Devices Fixed</p>
+         
+        </div>
+      </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+      <div className="col-lg-3 col-6">
+        <div className="counter-block-2 counter-border flex">
+                 <i class="icon fa fa-solid fa-face-smile"  style={{ color: "#2867c3", fontSize:"2rem",  marginRight:"10px"}}></i>
+      
+            <span className="counter count-info">1275</span>
+            <p className="text-capitalize">Happy Customers</p>
+        
+        </div>
+      </div>
+      {/*  end .col-lg-3 col-md-3 col-sm-6 col-xs-12 */}
+    </div>
       {/*  end .row  */}
     </div>
     {/*  end .container  */}
