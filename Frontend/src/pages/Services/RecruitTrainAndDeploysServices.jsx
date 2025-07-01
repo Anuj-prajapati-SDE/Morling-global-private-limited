@@ -10,13 +10,13 @@ const RecruitTrainAndDeploysServices = () => {
   <section
     className="section-content-block section-custom-bg parallax"
     id="services"
-    data-bg_img="images/service_custom_bg.jpg"
+    data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg"
     data-bg_color="#FFFFFF"
     data-bg_opacity="0.5"
     data-stellar-background-ratio="0.9"
     style={{
       backgroundImage:
-        'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/service_custom_bg.jpg")',
+        'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg")',
       backgroundOrigin: "initial, initial",
       backgroundClip: "initial, initial",
       backgroundColor: "initial",
@@ -49,7 +49,7 @@ const RecruitTrainAndDeploysServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/recruitment.avif" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326136/recruitment_pmxvx7.avif" alt="service" />
               <span className="fa fa-wrench" />
             </figure>
             <div className="service-content">
@@ -69,7 +69,7 @@ const RecruitTrainAndDeploysServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/training.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327344/training_deapiy.jpg" alt="service" />
               <span className="fa fa-compress" />
             </figure>
             <div className="service-content">
@@ -91,7 +91,7 @@ const RecruitTrainAndDeploysServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/deploy.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326174/deploy_imwm2s.jpg" alt="service" />
               <span className="fa fa-address-card" />
             </figure>
             <div className="service-content">
@@ -118,12 +118,12 @@ const RecruitTrainAndDeploysServices = () => {
   </section>
   <section
     className="section-content-block section-custom-bg"
-    data-bg_img="images/process_bg_1.jpg"
+    data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326950/process_bg_1_bt0zq9.jpg"
     data-bg_color="#2bb6d3"
     data-bg_opacity={0}
     style={{
       background:
-        'linear-gradient( rgba(43,182,211,0),  rgba(43,182,211,0) ), url("images/process_bg_1.jpg")',
+        'linear-gradient( rgba(43,182,211,0),  rgba(43,182,211,0) ), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326950/process_bg_1_bt0zq9.jpg")',
       backgroundPosition: "center center",
       backgroundRepeat: "no-repeat",
       backgroundAttachment: "inherit",

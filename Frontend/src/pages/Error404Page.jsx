@@ -31,7 +31,7 @@ const Error404Page = () => {
         <div className="col-lg-12 col-md-12 col-sm-12">
           <div className="message-container-404 text-center">
             <figure className="text-center">
-              <img src="images/404_img.jpg" alt="" />
+              <img src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327436/404_img_add1n7.jpg" alt="" />
             </figure>
             <p className="message-text-404">
               <strong>WHOPPS ! ! !</strong>

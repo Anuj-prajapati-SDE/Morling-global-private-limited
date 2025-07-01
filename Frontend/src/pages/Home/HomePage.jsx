@@ -20,7 +20,7 @@ const HomePage = () => {
           <div className="carousel-inner">
             {/* Slide 1 - Main Intro */}
             <div className="carousel-item active " style={{ 
-              backgroundImage: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("images/gallery_5.jpg")',
+              backgroundImage: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326481/gallery_5_r3kjti.jpg")',
               backgroundSize: "100% 100%",
               backgroundPosition: 'center center',
               height: '98vh',
@@ -60,7 +60,7 @@ const HomePage = () => {
             
             {/* Slide 2 - IT Solutions */}
             <div className="carousel-item" style={{ 
-              backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("images/img1.jpg")',
+              backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326742/img1_mo4qbc.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center center',
               height: '98vh',
@@ -100,7 +100,7 @@ const HomePage = () => {
             
             {/* Slide 3 - Recruitment */}
             <div className="carousel-item" style={{ 
-              backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("images/img3.jpg")',
+              backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326877/img3_yosghr.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center center',
               height: '98vh',
@@ -512,7 +512,7 @@ const HomePage = () => {
               <div className="about-image-wrapper position-relative">
                 <div className="about-image-main p-3 bg-white shadow rounded">
                   <img
-                    src="images/img4.jpg"
+                    src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751325843/img4_y6yl5l.jpg"
                     alt="About Morling Global"
                     className="img-fluid rounded"
                   />
@@ -761,13 +761,13 @@ const HomePage = () => {
   <section
   className="section-content-block section-custom-bg parallax"
   id="services"
-  data-bg_img="images/service_custom_bg.jpg"
+  data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326911/section_custom_bg_qnrtqw.jpg"
   data-bg_color="#FFFFFF"
   data-bg_opacity="0.5"
   data-stellar-background-ratio="0.9"
   style={{
     backgroundImage:
-      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/service_custom_bg.jpg")',
+      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326911/section_custom_bg_qnrtqw.jpg")',
     backgroundOrigin: "initial, initial",
     backgroundClip: "initial, initial",
     backgroundColor: "initial",
@@ -797,7 +797,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"100%"}} src="images/home_1_slider_1.jpg" alt="Hardware Services" />
+              <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751325971/home_1_slider_1_masdzu.jpg" alt="Hardware Services" />
               <span className="service-icon fa fa-wrench" />
             </figure>
             <div className="service-content">
@@ -822,7 +822,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"100%"}} src="images/lane.avif" alt="Broadband Services" />
+              <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326059/lane_vnkpyz.avif" alt="Broadband Services" />
               <span className="service-icon fa fa-compress" />
             </figure>
             <div className="service-content">
@@ -849,7 +849,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"100%"}} src="images/webapp.jpg" alt="Software Development" />
+              <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326096/webapp_lpqhzt.jpg" alt="Software Development" />
               <span className="service-icon fa fa-address-card" />
             </figure>
             <div className="service-content">
@@ -875,7 +875,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"100%"}} src="images/recruitment.avif" alt="Recruitment Services" />
+              <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326136/recruitment_pmxvx7.avif" alt="Recruitment Services" />
               <span className="service-icon fa fa-th-list" />
             </figure>
             <div className="service-content">
@@ -901,7 +901,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"120%"}} src="images/deploy.jpg" alt="RTD Services" />
+              <img style={{minWidth:"120%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326174/deploy_imwm2s.jpg" alt="RTD Services" />
               <span className="service-icon fa fa-hard-of-hearing" />
             </figure>
             <div className="service-content">
@@ -928,7 +928,7 @@ const HomePage = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure className="service-image">
-              <img style={{minWidth:"100%"}} src="images/service_6.jpg" alt="AMC Services" />
+              <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326234/service_6_g0yd1i.jpg" alt="AMC Services" />
               <span className="service-icon fa fa-key" />
             </figure>
             <div className="service-content">
@@ -962,12 +962,12 @@ const HomePage = () => {
   {/* PROCESS SECTION 02*/}
  <section
   className="section-content-block section-custom-bg"
-  data-bg_img="images/process_bg_1.jpg"
+  data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326950/process_bg_1_bt0zq9.jpg"
   data-bg_color="#2bb6d3"
   data-bg_opacity={0}
   style={{
     background:
-      'linear-gradient( rgba(43,182,211,0),  rgba(43,182,211,0) ), url("images/process_bg_1.jpg")',
+      'linear-gradient( rgba(43,182,211,0),  rgba(43,182,211,0) ), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326950/process_bg_1_bt0zq9.jpg")',
     backgroundPosition: "center center",
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "inherit",
@@ -1109,7 +1109,7 @@ const HomePage = () => {
     <section 
       className="section-content-block section-secondary-bg section-custom-bg" 
       id="form"
-      data-bg_img="images/blog_thumb_1.jpg"
+      data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327015/blog_thumb_1_rpfqcp.jpg"
       data-bg_color="#f8f8f8"
       data-bg_opacity="0.8"
       style={{
@@ -1251,7 +1251,7 @@ const HomePage = () => {
             <div className="col-lg-5 d-none d-lg-block no-padding">
               <figure className="testimonial-image h-100">
                 <img
-                  src="images/testimony_feat_img.jpg"
+                  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326298/testimony_feat_img_wv5qna.jpg"
                   alt="Happy Customers"
                   className="img-fluid h-100"
                   style={{ objectFit: "cover" }}
@@ -1272,7 +1272,7 @@ const HomePage = () => {
                           <div className="testimonial-author d-flex align-items-center mt-4">
                             <div className="author-image mr-3">
                               <img 
-                                src="images/user_1.jpg" 
+                                src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326332/user_1_olngyy.jpg" 
                                 alt="Testimonial Author" 
                                 className="img-fluid rounded-circle"
                                 style={{ width: "60px", height: "60px", objectFit: "cover" }} 
@@ -1297,7 +1297,7 @@ const HomePage = () => {
                           <div className="testimonial-author d-flex align-items-center mt-4">
                             <div className="author-image mr-3">
                               <img 
-                                src="images/user_2.jpg" 
+                                src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326334/user_2_qsl1zv.jpg" 
                                 alt="Testimonial Author" 
                                 className="img-fluid rounded-circle"
                                 style={{ width: "60px", height: "60px", objectFit: "cover" }} 
@@ -1322,7 +1322,7 @@ const HomePage = () => {
                           <div className="testimonial-author d-flex align-items-center mt-4">
                             <div className="author-image mr-3">
                               <img 
-                                src="images/user_3.jpg" 
+                                src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326338/user_3_esvzgd.jpg" 
                                 alt="Testimonial Author" 
                                 className="img-fluid rounded-circle"
                                 style={{ width: "60px", height: "60px", objectFit: "cover" }} 

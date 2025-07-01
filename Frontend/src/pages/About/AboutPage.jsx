@@ -7,9 +7,7 @@ const AboutPage = () => {
   return (
     <>
       <Navbar />
-      
-      
-      
+    
       <section className="about-section" id="about">
         <div className="container">
 
@@ -38,7 +36,7 @@ const AboutPage = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="image-container">
                   <img
-                    src="images/img4.jpg"
+                    src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751325843/img4_y6yl5l.jpg"
                     alt="Morling Global"
                     className="img-fluid"
                   />
@@ -67,7 +65,7 @@ const AboutPage = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="image-container">
                   <img
-                    src="images/trainingsupport.jpg"
+                    src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327311/trainingsupport_my0dax.jpg"
                     alt="Our Mission"
                     className="img-fluid"
                   />
@@ -95,7 +93,7 @@ const AboutPage = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="image-container">
                   <img
-                    src="images/training.jpg"
+                    src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327344/training_deapiy.jpg"
                     alt="Our Expertise"
                     className="img-fluid"
                   />

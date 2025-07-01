@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="container">
           <div className="nav-head">
             <Link to="/" className="navbar-brand">
-              <img src="images/final morling global (1).png" alt="Logo"/>
+              <img src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751286134/final_morling_global_1_agosra.png" alt="Logo"/>
             </Link>
             
             {/*  New Code For Menu */}

@@ -10,13 +10,13 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
   <section
     className="section-content-block section-custom-bg parallax"
     id="services"
-    data-bg_img="images/service_custom_bg.jpg"
+    data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg"
     data-bg_color="#FFFFFF"
     data-bg_opacity="0.5"
     data-stellar-background-ratio="0.9"
     style={{
       backgroundImage:
-        'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/service_custom_bg.jpg")',
+        'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg")',
       backgroundOrigin: "initial, initial",
       backgroundClip: "initial, initial",
       backgroundColor: "initial",
@@ -49,7 +49,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/laptop-repair.avif" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327739/laptop-repair_hvzsqj.avif" alt="service" />
               <span className="fa fa-wrench" />
             </figure>
             <div className="service-content">
@@ -73,7 +73,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/proceser.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327768/proceser_kekddb.jpg" alt="service" />
               <span className="fa fa-compress" />
             </figure>
             <div className="service-content">
@@ -97,7 +97,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/moterboard.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327808/moterboard_srb9yb.jpg" alt="service" />
               <span className="fa fa-address-card" />
             </figure>
             <div className="service-content">
@@ -121,7 +121,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/ram.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327839/ram_asjlsn.jpg" alt="service" />
               <span className="fa fa-th-list" />
             </figure>
             <div className="service-content">
@@ -145,7 +145,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/hddupgrade.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327882/hddupgrade_n5rh31.jpg" alt="service" />
               <span className="fa fa-hard-of-hearing" />
             </figure>
             <div className="service-content">
@@ -169,7 +169,7 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
         <div className="col-lg-4 col-sm-6 col-12">
           <article className="service-block-1 text-center">
             <figure>
-              <img style={{minWidth:"100%"}}  src="images/keybordrepair.jpg" alt="service" />
+              <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327911/keybordrepair_segsed.jpg" alt="service" />
               <span className="fa fa-key" />
             </figure>
             <div className="service-content">
@@ -198,12 +198,12 @@ const ComprehensiveHardwareAndSoftwareAmcServices = () => {
   <>
   <section
     className="section-content-block section-custom-bg"
-    data-bg_img="images/process_bg_1.jpg"
+    data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326950/process_bg_1_bt0zq9.jpg"
     data-bg_color="#2bb6d3"
     data-bg_opacity={0}
     style={{
       background:
-        'linear-gradient( rgba(43,182,211,0),  rgba(43,182,211,0) ), url("images/process_bg_1.jpg")',
+        'linear-gradient( rgba(43,182,211,0),  rgba(43,182,211,0) ), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751326950/process_bg_1_bt0zq9.jpg")',
       backgroundPosition: "center center",
       backgroundRepeat: "no-repeat",
       backgroundAttachment: "inherit",

@@ -7,7 +7,6 @@ const Footer = () => {
   {/* START FOOTER 05 */}
   <footer
     className="section-custom-bg"
-    // data-bg_img="images/footer_custom_bg.jpg"
     data-bg_opacity=".9"
     data-bg_color="#edf0f2"
     data-bg_position="center bottom"
@@ -34,7 +33,7 @@ const Footer = () => {
                     <div className="footer-about-text">
                       <a href="#">
                         <img
-                          src="images/final morling global (1).png"
+                          src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751286134/final_morling_global_1_agosra.png"
                           alt=""
                           className="footer-logo img-responsive"
                         />

@@ -10,13 +10,13 @@ const SoftwareDevelopmentServices = () => {
  <section
   className="section-content-block section-custom-bg parallax"
   id="services"
-  data-bg_img="images/service_custom_bg.jpg"
+  data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg"
   data-bg_color="#FFFFFF"
   data-bg_opacity="0.5"
   data-stellar-background-ratio="0.9"
   style={{
     backgroundImage:
-      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/service_custom_bg.jpg")',
+      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg")',
     backgroundOrigin: "initial, initial",
     backgroundClip: "initial, initial",
     backgroundColor: "initial",
@@ -48,7 +48,7 @@ const SoftwareDevelopmentServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/custom.avif" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751329126/custom_okx6it.avif" alt="service" />
             <span className="fa fa-wrench" />
           </figure>
           <div className="service-content">
@@ -67,7 +67,7 @@ const SoftwareDevelopmentServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/webapp.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326096/webapp_lpqhzt.jpg" alt="service" />
             <span className="fa fa-compress" />
           </figure>
           <div className="service-content">
@@ -85,7 +85,7 @@ const SoftwareDevelopmentServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/mobileapp.avif" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751329199/mobileapp_kv6oj2.avif" alt="service" />
             <span className="fa fa-address-card" />
           </figure>
           <div className="service-content">
@@ -103,7 +103,7 @@ const SoftwareDevelopmentServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/interprise.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751329271/interprise_mfefni.jpg" alt="service" />
             <span className="fa fa-th-list" />
           </figure>
           <div className="service-content">
@@ -121,7 +121,7 @@ const SoftwareDevelopmentServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/software-support.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751329299/software-support_ejffgo.jpg" alt="service" />
             <span className="fa fa-hard-of-hearing" />
           </figure>
           <div className="service-content">
@@ -139,7 +139,7 @@ const SoftwareDevelopmentServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/integration.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751329332/integration_lxbk40.jpg" alt="service" />
             <span className="fa fa-key" />
           </figure>
           <div className="service-content">

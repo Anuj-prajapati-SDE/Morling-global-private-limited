@@ -13,7 +13,7 @@ import ComprehensiveHardwareAndSoftwareAmcServices from "./pages/Services/Compre
 import PrivaryPolicyPage from "./pages/Security/PrivaryPolicyPage";
 import TermsConditionPage from "./pages/Security/TermsConditionPage";
 import ContactPage from "./pages/ContactPage";
-function App() {
+function App() { 
   
   
   return ( 

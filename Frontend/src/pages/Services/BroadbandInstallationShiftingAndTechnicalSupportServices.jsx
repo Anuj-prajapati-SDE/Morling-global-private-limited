@@ -11,13 +11,13 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
  <section
   className="section-content-block section-custom-bg parallax"
   id="services"
-  data-bg_img="images/service_custom_bg.jpg"
+  data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg"
   data-bg_color="#FFFFFF"
   data-bg_opacity="0.5"
   data-stellar-background-ratio="0.9"
   style={{
     backgroundImage:
-      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/service_custom_bg.jpg")',
+      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg")',
     backgroundOrigin: "initial, initial",
     backgroundClip: "initial, initial",
     backgroundColor: "initial",
@@ -49,7 +49,7 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}} src="images/broadband.avif" alt="service" />
+            <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327561/broadband_i1t9iv.avif" alt="service" />
             <span className="fa fa-wrench" />
           </figure>
           <div className="service-content">
@@ -68,7 +68,7 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/connection.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327584/connection_d5x3cv.jpg" alt="service" />
             <span className="fa fa-compress" />
           </figure>
           <div className="service-content">
@@ -87,7 +87,7 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/support.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327623/support_l6vcqs.jpg" alt="service" />
             <span className="fa fa-address-card" />
           </figure>
           <div className="service-content">
@@ -107,7 +107,7 @@ const BroadbandInstallationShiftingAndTechnicalSupportServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}}  src="images/router.jpg" alt="service" />
+            <img style={{minWidth:"100%"}}  src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751327656/router_caxxtz.jpg" alt="service" />
             <span className="fa fa-th-list" />
           </figure>
           <div className="service-content">

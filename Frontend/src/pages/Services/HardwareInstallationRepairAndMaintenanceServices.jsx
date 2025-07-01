@@ -11,13 +11,13 @@ const HardwareInstallationRepairAndMaintenanceServices = () => {
  <section
   className="section-content-block section-custom-bg parallax"
   id="services"
-  data-bg_img="images/service_custom_bg.jpg"
+  data-bg_img="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg"
   data-bg_color="#FFFFFF"
   data-bg_opacity="0.5"
   data-stellar-background-ratio="0.9"
   style={{
     backgroundImage:
-      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/service_custom_bg.jpg")',
+      'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://res.cloudinary.com/dobfsabnz/image/upload/v1751328503/service_custom_bg_wmuekj.jpg")',
     backgroundOrigin: "initial, initial",
     backgroundClip: "initial, initial",
     backgroundColor: "initial",
@@ -49,7 +49,7 @@ const HardwareInstallationRepairAndMaintenanceServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}} src="images/repair.jpg" alt="service" />
+            <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328178/repair_ycnrns.jpg" alt="service" />
             <span className="fa fa-wrench" />
           </figure>
           <div className="service-content">
@@ -67,7 +67,7 @@ const HardwareInstallationRepairAndMaintenanceServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}} src="images/network.avif" alt="service" />
+            <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328222/network_gdyvrx.avif" alt="service" />
             <span className="fa fa-compress" />
           </figure>
           <div className="service-content">
@@ -85,7 +85,7 @@ const HardwareInstallationRepairAndMaintenanceServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}} src="images/lane.avif" alt="service" />
+            <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751326059/lane_vnkpyz.avif" alt="service" />
             <span className="fa fa-address-card" />
           </figure>
           <div className="service-content">
@@ -103,7 +103,7 @@ const HardwareInstallationRepairAndMaintenanceServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}} src="images/routerconfig.jpg" alt="service" />
+            <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328341/routerconfig_gl1s6w.jpg" alt="service" />
             <span className="fa fa-th-list" />
           </figure>
           <div className="service-content">
@@ -121,7 +121,7 @@ const HardwareInstallationRepairAndMaintenanceServices = () => {
       <div className="col-lg-4 col-sm-6 col-12">
         <article className="service-block-1 text-center">
           <figure>
-            <img style={{minWidth:"100%"}} src="images/dignose.jpg" alt="service" />
+            <img style={{minWidth:"100%"}} src="https://res.cloudinary.com/dobfsabnz/image/upload/v1751328389/dignose_yfewow.jpg" alt="service" />
             <span className="fa fa-hard-of-hearing" />
           </figure>
           <div className="service-content">
